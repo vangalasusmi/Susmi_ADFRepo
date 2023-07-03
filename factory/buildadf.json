@@ -1,0 +1,9 @@
+{
+	"name": "buildadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "98541718-ccf2-42f7-b7fb-42cda0f5357a",
+		"tenantId": "3ca3175c-4e8c-446d-b13a-d6129f056f77"
+	}
+}
