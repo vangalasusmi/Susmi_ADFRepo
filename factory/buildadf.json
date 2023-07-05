@@ -2,7 +2,7 @@
 	"name": "buildadf",
 	"properties": {
 		"globalConfigurations": {
-			"PipelineBillingEnabled": "true"
+			"PipelineBillingEnabled": "false"
 		}
 	},
 	"location": "eastus",
