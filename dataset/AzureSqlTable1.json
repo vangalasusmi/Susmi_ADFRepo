@@ -1,8 +1,8 @@
 {
-	"name": "AzureSqlTable1Ds",
+	"name": "AzureSqlTable1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSqlDatabase2",
+			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference",
 			"parameters": {
 				"username": {
@@ -18,11 +18,10 @@
 		"parameters": {
 			"username": {
 				"type": "String",
-				"defaultValue": "azureuser"
+				"defaultValue": "password"
 			},
 			"password": {
-				"type": "String",
-				"defaultValue": "Graydon@150"
+				"type": "String"
 			}
 		},
 		"annotations": [],
