@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Load2SQLTables",
 	"properties": {
 		"activities": [
 			{

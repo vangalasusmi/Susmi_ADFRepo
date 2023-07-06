@@ -15,7 +15,7 @@
 			"sinks": [
 				{
 					"dataset": {
-						"referenceName": "AzureSqlTable1",
+						"referenceName": "AzureSqlTable3",
 						"type": "DatasetReference"
 					},
 					"name": "SQLDB1"
@@ -77,7 +77,6 @@
 				"     input(",
 				"          AddressID as integer,",
 				"          AddressLine1 as string,",
-				"          AddressLine2 as string,",
 				"          City as string,",
 				"          StateProvince as string,",
 				"          CountryRegion as string,",
