@@ -2,18 +2,11 @@
 	"name": "AzureSqlDatabase1",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"parameters": {
-			"username": {
-				"type": "string"
-			},
-			"password": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=mysqlserver45678.database.windows.net;Initial Catalog=mySampleDatabase;User ID=@{linkedService().username};Password=@{linkedService().password}"
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=mysqlserver45678.database.windows.net;initial catalog=mySampleDatabase;user id=azureuser",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDlGOTMyOERFLUIzQjgtNEI4Qy04OUExLUI3OUIwREY4MjI1Ql82OTg0MDdiMi02YWY1LTQwNTEtYTFjYy04NDQ3MTQ1ZTljNjYiDQp9"
 		}
 	}
 }
