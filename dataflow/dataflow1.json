@@ -57,7 +57,6 @@
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> source1",
 				"source1 select(mapColumn(",
-				"          AddressID,",
 				"          AddressLine1,",
 				"          City,",
 				"          StateProvince,",
